@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewClicked|typeViewFocused|typeViewScrolled"
+    android:accessibilityFeedbackType="feedbackSpoken"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:packageNames="com.yiban.app"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows"
+    android:settingsActivity="com.company1.MyAccessibility"
+    android:canPerformGestures="true"
+    android:description="@string/description"
+    />
